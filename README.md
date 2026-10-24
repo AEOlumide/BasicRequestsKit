@@ -36,6 +36,7 @@ struct PhotoService {
         return try actor.decode([PhotoModel] , from: data)
     }
 }
+```
 
 ### RequestsActor
 
@@ -66,7 +67,6 @@ struct ProfileService {
 	return try actor.decode(Profile.self, from: data)        
     }
 }
-
 ```
 
 ## License
